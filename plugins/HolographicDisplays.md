@@ -31,3 +31,5 @@
 
 ## その他
 - ホログラムには文字コードにより色などを追加することが可能です。
+- さらに詳しく知りたい人は https://filoghost.me/docs/holographic-displays を参考にすると良いです。
+- 自鯖環境で試したい人は https://dev.bukkit.org/projects/holographic-displays でダウンロードしてください。
