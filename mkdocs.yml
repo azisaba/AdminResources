@@ -1,0 +1,45 @@
+site_name: "📕 Admin Resources"
+repo_url: https://github.com/azisaba/AdminResources
+repo_name: azisaba/AdminResources
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: light blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - header.autohide
+    - navigation.indexes
+    - navigation.expand
+    - navigation.top
+    - navigation.sections
+markdown_extensions:
+  - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - md_in_html
+  - tables
+  - meta
+  - footnotes # https://squidfunk.github.io/mkdocs-material/reference/footnotes/#adding-footnote-references
+  - abbr # https://squidfunk.github.io/mkdocs-material/reference/abbreviations/#adding-abbreviations
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
