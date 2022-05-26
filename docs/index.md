@@ -3,4 +3,4 @@
 アジ鯖運営を目指している人や、アジ鯖運営として新たなスキルを身に着けたい人を対象に作成されています。   
 これも追加して！とマークダウン形式での解説を統括運営に送り付ければ追加するので機密を含まない範囲で解説記事を作成していただけると助かります。
 
-GitHub：https://github.com/azisaba/AdminResources
+GitHub：<https://github.com/azisaba/AdminResources>
