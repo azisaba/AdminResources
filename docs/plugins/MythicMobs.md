@@ -9,5 +9,5 @@
 <https://docs.google.com/spreadsheets/d/1uBDB3VIRjc_RqcyFIB593q1Ztq4cqR6Zl_ee_HF4nXs>
 
 ## その他
-- さらに詳しく知りたい人は https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home を参考にすると良いです。
-- 自鯖環境で試したい人は https://mythiccraft.io/index.php?pages/official-mythicmobs-download/ でダウンロードしてください。
+- さらに詳しく知りたい人は <https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home> を参考にすると良いです。
+- 自鯖環境で試したい人は <https://mythiccraft.io/index.php?pages/official-mythicmobs-download/> でダウンロードしてください。
