@@ -5,34 +5,6 @@ CoreProtectは全プレイヤーの行動を細かく保存し、ログとして
 - [GitHub - PlayPro/CoreProtect](https://github.com/PlayPro/CoreProtect/)
 - [CoreProtect Documentation](https://docs.coreprotect.net/)
 
-----
-
-- [CoreProtect](#coreprotect)
-  - [CoreProtectを採用しているサーバー](#coreprotectを採用しているサーバー)
-  - [Inspector(インスペクター)](#inspectorインスペクター)
-  - [Lockup(ルックアップ)](#lockupルックアップ)
-  - [Rollback(ロールバック)](#rollbackロールバック)
-  - [Restore(リストア)](#restoreリストア)
-  - [Purge(パージ)](#purgeパージ)
-    - [ワールドのパージ](#ワールドのパージ)
-    - [MySQLの最適化](#mysqlの最適化)
-  - [Reload](#reload)
-  - [Status](#status)
-  - [consumer](#consumer)
-  - [パラメーターの詳細](#パラメーターの詳細)
-    - [`u:<user>`](#uuser)
-    - [`t:<time>`](#ttime)
-    - [`r:<radius>`](#rradius)
-    - [`a:<action>`](#aaction)
-    - [`i:<include>`](#iinclude)
-    - [`e:<exclude>`](#eexclude)
-    - [`#<hashtag>`](#hashtag)
-  - [コマンドの例](#コマンドの例)
-    - [ロールバック](#ロールバック)
-    - [ルックアップ](#ルックアップ)
-
-----
-
 ## CoreProtectを採用しているサーバー
 (2022/07/31現在)
 - Life
