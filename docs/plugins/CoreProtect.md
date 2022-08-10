@@ -83,7 +83,7 @@ CoreProtect v19以上ではオプションでワールドを指定すること�
 
 下の例では**ネザーにある一ヶ月以上前のデータを削除し、他のワールドのデータは削除しません**。
 
-e.x `/co purge t:30d r:#world_nether`
+Example: `/co purge t:30d r:#world_nether`
 
 ### MySQLの最適化
 
