@@ -126,9 +126,9 @@ CoreProtectの詳細情報を表示します。
 複数指定することも可能です。
 
 - Example: `u:m2en`
-  - この場合は める(`m2en`) というMCIDのログのみを検索します。
+  - この場合は `m2en` というMCIDのログのみを検索します。
 - Example: `u:siloneco,takenekooon`
-  - この場合は さいろんこ(`siloneco`)・たけのこ(`takenekooon`)というMCIDのログのみを検索します。
+  - この場合は `siloneco`・`takenekooon` というMCIDのログのみを検索します。
 
 ### `t:<time>`
 
