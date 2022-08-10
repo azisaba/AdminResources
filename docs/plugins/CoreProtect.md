@@ -32,7 +32,7 @@ Inspectorモードでは調べられない場所や範囲を広げて検索す�
 
 | コマンド | パラメーター |
 | ---- | ---- |
-| `/co lockup` | `u:<user> t:<time> r:<radius> a:<action> i:<include> e:<exclude>` |
+| `/co lookup` | `u:<user> t:<time> r:<radius> a:<action> i:<include> e:<exclude>` |
 | `/co l` | `/co lookup <params>` |
 
 ![Lockup](../image/195320.png)
