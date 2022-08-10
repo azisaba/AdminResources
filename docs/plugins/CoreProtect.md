@@ -114,7 +114,7 @@ CoreProtectの詳細情報を表示します。
 
 以下のコマンドではパラメーターで、オプションなどを詳細的に指定する必要があります。
 
-- `/co lockup`
+- `/co lookup`
 - `/co rollback`
 - `/co restore`
 - ( `/co purge` )
