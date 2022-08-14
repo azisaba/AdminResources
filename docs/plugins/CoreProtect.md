@@ -10,7 +10,7 @@ CoreProtectは全プレイヤーの行動を細かく保存し、ログとして
 - Life
 - Despawn
 - ばにらいふ!
-  - TSL
+    - TSL
 - Afnw
 - JunkGames
 
