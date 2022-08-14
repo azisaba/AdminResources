@@ -251,7 +251,7 @@ CoreProtectの詳細情報を表示します。
 - `/co lookup u:Toto31010 t:30m a:chat`  
   - 30分以内にToto31010が発言したチャットのログを表示します。
 - `/co lookup u:_Be4_ t:3d a:inventory`  
-  - 3日間以内の_Be4_のインベントリのログを表示します。
+  - 3日間以内の`_Be4_`のインベントリのログを表示します。
 - `/co lookup u:KotlinLove a:login`  
   - KotlinLoveのログインのログを表示します。
 - `/co lookup u:46kuri_,S1guRe16 a:login`  
