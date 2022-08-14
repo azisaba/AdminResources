@@ -247,7 +247,7 @@ CoreProtectの詳細情報を表示します。
 つまり、全てのルックアップコマンドはグローバル検索(`#global` と同等)を行うということです。
 
 - `/co lookup i:diamond_ore t:1h a:-block`  
-  - 1時間以内にダイヤモンドの斧で破壊したブロックのログを表示します。
+  - 1時間以内のダイヤモンドの鉱石を破壊したログを表示します。
 - `/co lookup u:Toto31010 t:30m a:chat`  
   - 30分以内にToto31010が発言したチャットのログを表示します。
 - `/co lookup u:_Be4_ t:3d a:inventory`  
