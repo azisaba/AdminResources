@@ -232,7 +232,7 @@ CoreProtectの詳細情報を表示します。
 - `/co rollback u:ledlaggazi t:1h i:stone a:-block`  
   - 1時間以内に`ledlaggazi`が破壊した石ブロックをロールバックします。
 - `/co rollback u:m2en t:1h r:#global e:stone,dirt`  
-  - 1時間以内に`m2en`がサーバー全体で破壊・設置した石ブロックと土ブロックをロールバックします。
+  - 1時間以内に`m2en`がサーバー全体で破壊・設置した石ブロックと土ブロック以外をロールバックします。
 - `/co rollback u:MMLove t:1h r:20`  
   - `MMLove`の1時間以内の活動(半径20ブロック内)をロールバックします。
 - `/co rollback u:kusunoki_nya t:1h r:#nether`  
