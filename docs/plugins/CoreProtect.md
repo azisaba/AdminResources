@@ -5,8 +5,8 @@ CoreProtectは全プレイヤーの行動を細かく保存し、ログとして
 - [GitHub - PlayPro/CoreProtect](https://github.com/PlayPro/CoreProtect/)
 - [CoreProtect Documentation](https://docs.coreprotect.net/)
 
-## CoreProtectを採用しているサーバー
-(2022/07/31現在)
+## CoreProtectを採用しているサーバー (2022/07/31現在)
+
 - Life
 - Despawn
 - ばにらいふ!
