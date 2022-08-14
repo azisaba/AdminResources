@@ -104,7 +104,7 @@ rollbackなどの操作が遅い場合は `#optimize`　を使用すると操作
 
 CoreProtectの詳細情報を表示します。
 
-## consumer
+## Consumer
 
 `/co consumer`
 
