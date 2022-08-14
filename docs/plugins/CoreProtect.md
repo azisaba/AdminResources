@@ -224,19 +224,19 @@ CoreProtectの詳細情報を表示します。
 **注意:** デフォルトでは `radius` が指定されていない場合、半径 `10` としてロールバックされます
 
 - `/co rollback siloneco t:1h`  
-  - silonecoの1時間以内の活動をロールバックします。
+  - `siloneco`の1時間以内の活動をロールバックします。
 - `/co rollback u:testusuke t:23h17m`  
-  - testusukeの23時間17分の活動をロールバックします。
+  - `testusuke`の23時間17分の活動をロールバックします。
 - `/co rollback u:Lxl_Luuyk15 t:1h i:stone`  
-  - 1時間以内にLxl_Luuyk15が破壊・設置した石ブロックをロールバックします。
+  - 1時間以内に`Lxl_Luuyk15`が破壊・設置した石ブロックをロールバックします。
 - `/co rollback u:ledlaggazi t:1h i:stone a:-block`  
-  - 1時間以内にledlaggaziが破壊した石ブロックをロールバックします。
+  - 1時間以内に`ledlaggazi`が破壊した石ブロックをロールバックします。
 - `/co rollback u:m2en t:1h r:#global e:stone,dirt`  
-  - 1時間以内にm2enがサーバー全体で破壊・設置した石ブロックと土ブロックをロールバックします。
+  - 1時間以内に`m2en`がサーバー全体で破壊・設置した石ブロックと土ブロックをロールバックします。
 - `/co rollback u:MMLove t:1h r:20`  
-  - MMLoveの1時間以内の活動(半径20ブロック内)をロールバックします。
+  - `MMLove`の1時間以内の活動(半径20ブロック内)をロールバックします。
 - `/co rollback u:kusunoki_nya t:1h r:#nether`  
-  - kusunoki_nyaの1時間以内の活動(`nether`というワールドのみ)をロールバックします。
+  - `kusunoki_nya`の1時間以内の活動(`nether`というワールドのみ)をロールバックします。
 - `/co rollback t:15m r:#worldedit`  
   - WorldEditで指定した範囲の15分間以内の活動をロールバックします。
 
@@ -249,12 +249,12 @@ CoreProtectの詳細情報を表示します。
 - `/co lookup i:diamond_ore t:1h a:-block`  
   - 1時間以内のダイヤモンドの鉱石を破壊したログを表示します。
 - `/co lookup u:Toto31010 t:30m a:chat`  
-  - 30分以内にToto31010が発言したチャットのログを表示します。
+  - 30分以内に`Toto31010`が発言したチャットのログを表示します。
 - `/co lookup u:_Be4_ t:3d a:inventory`  
-  - 3日間以内の_Be4_のインベントリのログを表示します。
+  - 3日間以内の`_Be4_`のインベントリのログを表示します。
 - `/co lookup u:KotlinLove a:login`  
-  - KotlinLoveのログインのログを表示します。
+  - `KotlinLove`のログインのログを表示します。
 - `/co lookup u:46kuri_,S1guRe16 a:login`  
-  - 46kuri_・S1guRe16のログインのログを表示します。
+  - `46kuri_`・`S1guRe16`のログインのログを表示します。
 - `/co lookup u:Nebo_Thunder a:username`  
-  - Nebo_ThunderのMCID変更履歴を表示します。
+  - `Nebo_Thunder`のMCID変更履歴を表示します。
