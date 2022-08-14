@@ -188,7 +188,7 @@ CoreProtectの詳細情報を表示します。
 | `a:sign` | 看板への記入 |
 | `a:username` | ユーザー名(MCID)の変更 |
 
-### `i:<include>`
+### `i:<include>` (`b:<block>`)
 
 対象にしたいブロック・アイテム・エンティティを指定します。
 
