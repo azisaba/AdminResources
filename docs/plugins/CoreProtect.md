@@ -24,7 +24,7 @@ Inspectorモードが有効になっている間、ログを確認したい地�
 
 ## Lookup(ルックアップ)
 
-`/co lookup` (or `/co l` ) で使えるモード。
+`/co lookup` (or `/co l`) で使えるモード。
 
 Inspectorとは違い、ログを正確に検索することができます。
 
