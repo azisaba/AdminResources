@@ -35,7 +35,7 @@ Inspectorモードでは調べられない場所や範囲を広げて検索す�
 | `/co lookup` | `u:<user> t:<time> r:<radius> a:<action> i:<include> e:<exclude>` |
 | `/co l` | `/co lookup <params>` |
 
-![Lockup](../image/195320.png)
+![Lookup](../image/195320.png)
 
 ## Rollback(ロールバック)
 
