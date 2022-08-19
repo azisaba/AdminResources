@@ -115,7 +115,7 @@ MovementSpeed: [number] #(移動速度上昇)
 ※これまた他にもあるので、詳しくは<https://git.mythiccraft.io/mythiccraft/mythiccrucible/-/wikis/Skills/Triggers> を参考にしてください
 
 
-### ・Skills
+### Skills
 
 ```yml
 # 記述方法 #
