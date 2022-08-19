@@ -2,7 +2,7 @@
 
 ## 用途
 モブを作成するのに使用します。
-アジ鯖内でMMを使用するときは(恐らく)関係ないですが、アイテムを作成するときは別Plugin(MythicCrucible)が必要です。
+アイテムを作成するときは別Plugin(MythicCrucibleもしくはMythicArtifacts)が必要です。
 
 ## 使い方
 
