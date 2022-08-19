@@ -75,7 +75,9 @@
 ※他にもあるので、詳しくは<https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Skills/Triggers> を参考にしてください
 
 
-### ・Item ※MythicCruicible必須
+### Item
+
+この機能を利用するにはMythicCruicibleまたはMythicArtifactsが必要です。
 ```yml
 [Itemの名前]:
   Id: [itemId] #(ItemのId(例: wooden_sword, dirt, grass) )
