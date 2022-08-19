@@ -6,7 +6,7 @@
 
 ## 使い方
 
-### ・Mob
+### Mob
 ```yml
 [MOBの名前]:
   Type: [mobtype] #(Mobの種類 (例: zombie, skeleton) )
