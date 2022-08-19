@@ -11,7 +11,7 @@
 [MOBの名前]:
   Type: [mobtype] #(Mobの種類 (例: zombie, skeleton) )
   Display: '[display_name]' #(Mobの名前 (例: 最高のゾンビ！) )
-  Health: [number] #(MobのHP)
+  Health: [number]  #(MobのHP)
   Armor: [number] #(MobのArmor値 (Mobが受けるダメージを指定された分だけ減らす) )
   Damage: [number] #(Mobの攻撃力)
   BossBar: #(Mobのボスバーを表示する)
@@ -32,7 +32,7 @@
     Despawn: [true/false/chunk/persistent] #(Mobのデスポーン)
     MaxCombatDistance: [number] #(Mobが攻撃を受ける範囲)
     Glowing: [true/false] #(常に発行を付ける)
-    Invincible: [true/false] #(Mobが無敵)
+    Invincible: [true/false]  #(Mobが無敵)
     KnockbackResistance: [number] #(ノックバック耐性)
     MovementSpeed: [number] #(移動速度)
     NoAI: [true/false] #(MobにAIをつけるか(trueにするとMobが動かなくなる) )
@@ -76,8 +76,6 @@
 
 
 ### Item
-
-この機能を利用するにはMythicCruicibleまたはMythicArtifactsが必要です。
 ```yml
 [Itemの名前]:
   Id: [itemId] #(ItemのId(例: wooden_sword, dirt, grass) )
@@ -94,14 +92,14 @@
 
 # Attributes # 
 
-AttackSpeed: [number] #(攻撃速度上昇)
-Armor: [number] #(防具値上昇)
-ArmorToughness: [number] #(防具強度上昇)
-Damage: [number] #(攻撃力上昇)
-Health: [number] #(最大体力上昇)
-Luck: [number] #(幸運上昇)
-KnockbackResistance: [number] #(ノックバック耐性)
-MovementSpeed: [number] #(移動速度上昇)
+      AttackSpeed: [number] #(攻撃速度上昇)
+      Armor: [number]  #(防具値上昇)
+      ArmorToughness: [number] #(防具強度上昇)
+      Damage: [number] #(攻撃力上昇)
+      Health: [number] #(最大体力上昇)
+      Luck: [number] #(幸運上昇)
+      KnockbackResistance: [number] #(ノックバック耐性)
+      MovementSpeed: [number] #(移動速度上昇)
 ```
 |  トリガー2  |  説明  |
 | ---- | ---- |
@@ -251,7 +249,7 @@ Skills:
 ターゲットを燃やす
 |  オプション  |  略称系  |  説明  |
 | ---- | ---- | ---- |
-|  ticks  |  t,d,duration  |  燃焼するtick  |
+|  ticks  |  t, d, duration  |  燃焼するtick  |
 ```yml
 # 記述方法 #
 
@@ -309,7 +307,7 @@ Skills:
 
 Skills:
 - raytrace{
-      ees=[
+      es=[
         - damage{a=20}
       ];
       hs=[
@@ -373,6 +371,37 @@ Skills:
            c=1
            } @self
 ```
+
+## コマンド
+
+* モブ召喚
+
+`/mm mobs spawn [Mob名] <レベル> <数> <ワールド名,x,y,z>`
+
+* アイテム取得
+
+`/mm items get [Item名] <数>`
+
+* 他プレイヤーにアイテムを渡す
+
+`/mm items give [MCID] [Item名] <数>`
+
+* Spawnerを設置する
+
+`/mm spawner create [Spawner名] [Mob名]`
+
+* SpawnerにCooldownを付ける
+
+`/mm spawner set [Spawner名] Cooldown [秒数]`
+
+* Mobのモンスターエッグを取得する
+
+`/mm egg get [Mob名] <数>`
+
+* MythicMobsをReloadする
+
+`/mm relaoad`
+
 ## その他
 - さらに詳しく知りたい人は <https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home> を参考にすると良いです。
 - 自鯖環境で試したい人は <https://mythiccraft.io/index.php?pages/official-mythicmobs-download/> でダウンロードしてください。
