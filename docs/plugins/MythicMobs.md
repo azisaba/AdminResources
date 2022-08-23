@@ -45,7 +45,7 @@
   Skills: #(Skillを指定)
   - skill{s=[Skill名]} @[*ターゲッター] ~[*トリガー1] 
 ```
-|  ターゲッター  |  略称系  |  説明  |
+|  ターゲッター  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  @self  |  @Caster  |  自分をターゲットにする  |
 |  @target  |  @T  |  モブの標的をターゲットにする  |
@@ -128,7 +128,7 @@
 
 particleを出す
 
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  particle  |  p  |  再生するエフェクトの種類  |
 |  amount  |  a  |  エフェクトの個数  |
@@ -148,7 +148,7 @@ Skills:
 * **projectile**
 
 目の前に真っ直ぐ飛ぶレーザーを出す
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  onTick  |  ot  |  毎Tick発動するスキル  |
 |  onHit  |  oh  |  projectileがHitした時に発動するスキル  |
@@ -172,10 +172,10 @@ Skills:
 * **heal**
 
 指定した量だけ回復する
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  amount  |  a  |  回復する量  |
-|  overheal  |  oh  |  限界突破☆して回復するか  |
+|  overheal  |  oh  |  限界突破して回復するか  |
 ```yml
 # 記述方法 #
 
@@ -186,7 +186,7 @@ Skills:
 * **damage**
 
 指定したダメージを与える
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  amount  |  a  |  ダメージ量  |
 |  ignoreArmor  |  ia  |  防具を無視するか  |
@@ -219,7 +219,7 @@ Skills:
 * **message**
 
 メッセージを送信する
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  message  |  msg,m  |  送るメッセージの内容をここに書く  |
 ```yml
@@ -232,7 +232,7 @@ Skills:
 * **potion**
 
 ポーション効果を与える
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  type  |  t  |  与えるポーション効果の[タイプ](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Items/Potions)  |
 |  duration  |  d  |  ポーション効果を与えるtick  |
@@ -247,7 +247,7 @@ Skills:
 * **ignite**
 
 ターゲットを燃やす
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  ticks  |  t, d, duration  |  燃焼するtick  |
 ```yml
@@ -260,7 +260,7 @@ Skills:
 * **swap**
 
 ターゲットと自分の場所を入れ替える
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  none  |  none  |  none  |
 ```yml
@@ -273,7 +273,7 @@ Skills:
 * **summon**
 
 モブを召喚する
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  type  |  t  |  Mobのタイプを指定する (MM製Mob指定可)  |
 |  amount  |  a  |  召喚するMobの量を指定する  |
@@ -289,7 +289,7 @@ Skills:
 * **raytrace**
 
 即着弾するビームを出す
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  entityskill  |  eskill, es  |  ビームがエンティティにヒットした時に発動するスキル  |
 |  locationskill  |  lskill, ls  |  ビームがブロックにヒットした時に発動するスキル  |
@@ -325,7 +325,7 @@ Skills:
 * **remove**
 
 モブを消す
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  none  |  none  |  none  |
 
@@ -339,7 +339,7 @@ Skills:
 * **orbital**
 
 ターゲットの周囲を回転する軌道を出す
-|  オプション  |  略称系  |  説明  |
+|  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  onTick  |  ot  |  毎Tick発動するスキル  |
 |  onHit  |  oh  |  projectileがHitした時に発動するスキル  |
@@ -350,7 +350,7 @@ Skills:
 |  Duration  |  md  |  最大持続時間   |
 |  HitPlayers  |  hp  |  Playerに当たるか  |
 |  HitNonPlayers  |  hnp  |  Player以外のEntityに当たるか  |
-|  Points  |  p  |  軌道を構成する点の数。  |
+|  Points  |  p  |  軌道を構成する点の数  |
 |  Radius  |  r  |  周囲の軌道の半径  |
 |  Charge  |  c  |  指定した回数分、回転した後に軌道が停止する  |
 
@@ -400,7 +400,7 @@ Skills:
 
 * MythicMobsをReloadする
 
-`/mm relaoad`
+`/mm reload`
 
 ## その他
 - さらに詳しく知りたい人は <https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home> を参考にすると良いです。
