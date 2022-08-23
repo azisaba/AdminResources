@@ -45,6 +45,7 @@
   Skills: #(Skillを指定)
   - skill{s=[Skill名]} @[*ターゲッター] ~[*トリガー1] 
 ```
+
 |  ターゲッター  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  @self  |  @Caster  |  自分をターゲットにする  |
@@ -101,6 +102,7 @@
       KnockbackResistance: [number] #(ノックバック耐性)
       MovementSpeed: [number] #(移動速度上昇)
 ```
+
 |  トリガー2  |  説明  |
 | ---- | ---- |
 |  ~onUse  |  右クリック時に発火  |
@@ -138,6 +140,7 @@ particleを出す
 |  yOffset  |   y   |  エフェクトを描画する高さ  |
 |  color  |  c  |  一部のエフェクトでのみ使用できる 16進数カラーコード(`#○○○○○○`)で記述  |
 |  fromorigin  |  fo  |  origin(他の一部のスキルの発生場所など)からエフェクトを発生させるかどうか  |
+
 ```yml
 # 記述方法 #
 
@@ -148,6 +151,7 @@ Skills:
 * **projectile**
 
 目の前に真っ直ぐ飛ぶレーザーを出す
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  onTick  |  ot  |  毎Tick発動するスキル  |
@@ -162,6 +166,7 @@ Skills:
 |  StopAtEntity  |  sE  |  Entityに当たった時に止まるか  |
 |  StopAtBlock  |  sB  |  Blockに当たった時に止まるか  |
 |  Gravity  |  g  |  重力を指定する  |
+
 ```yml
 # 記述方法 #
 
@@ -172,10 +177,12 @@ Skills:
 * **heal**
 
 指定した量だけ回復する
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  amount  |  a  |  回復する量  |
 |  overheal  |  oh  |  限界突破して回復するか  |
+
 ```yml
 # 記述方法 #
 
@@ -186,6 +193,7 @@ Skills:
 * **damage**
 
 指定したダメージを与える
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  amount  |  a  |  ダメージ量  |
@@ -194,6 +202,7 @@ Skills:
 |  preventimmunity  |  pi  |  無敵時間貫通して攻撃するか  |
 |  element  |  type  |  damageのタイプを指定  |
 |  damagecause  |  cause  |  ↓いっぱいある↓  |
+
 ```
 # damageCause # 
 
@@ -219,9 +228,11 @@ Skills:
 * **message**
 
 メッセージを送信する
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  message  |  msg,m  |  送るメッセージの内容をここに書く  |
+
 ```yml
 # 記述方法 #
 
@@ -232,11 +243,13 @@ Skills:
 * **potion**
 
 ポーション効果を与える
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  type  |  t  |  与えるポーション効果の[タイプ](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Items/Potions)  |
 |  duration  |  d  |  ポーション効果を与えるtick  |
 |  level  |  l  |  ポーション効果のレベル  |
+
 ```yml
 # 記述方法 #
 
@@ -247,9 +260,11 @@ Skills:
 * **ignite**
 
 ターゲットを燃やす
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  ticks  |  t, d, duration  |  燃焼するtick  |
+
 ```yml
 # 記述方法 #
 
@@ -260,9 +275,11 @@ Skills:
 * **swap**
 
 ターゲットと自分の場所を入れ替える
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  none  |  none  |  none  |
+
 ```yml
 # 記述方法 #
 
@@ -273,6 +290,7 @@ Skills:
 * **summon**
 
 モブを召喚する
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  type  |  t  |  Mobのタイプを指定する (MM製Mob指定可)  |
@@ -289,6 +307,7 @@ Skills:
 * **raytrace**
 
 即着弾するビームを出す
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  entityskill  |  eskill, es  |  ビームがエンティティにヒットした時に発動するスキル  |
@@ -325,6 +344,7 @@ Skills:
 * **remove**
 
 モブを消す
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  none  |  none  |  none  |
@@ -339,6 +359,7 @@ Skills:
 * **orbital**
 
 ターゲットの周囲を回転する軌道を出す
+
 |  オプション  |  省略形  |  説明  |
 | ---- | ---- | ---- |
 |  onTick  |  ot  |  毎Tick発動するスキル  |
