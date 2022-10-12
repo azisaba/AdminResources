@@ -131,11 +131,11 @@
 
 #### General Informations
 
-- `Name:` - ユーザー名、Tag、ID
+- `Name` - ユーザー名、Tag、ID
 - `Creation` - アカウント作成日時
-- `Join:` - サーバー参加日時
-- `Color:` - アカウントカラー
-- `Discord Badge:` - アカウントのバッジ
+- `Join` - サーバー参加日時
+- `Color` - アカウントカラー
+- `Discord Badge` - アカウントのバッジ
 
 #### Wick Informations
 
@@ -154,5 +154,5 @@ Wickの権限に関する情報
 
 #### Account Accessories
 
-- `Roles:` - アカウントに付与されたロール一覧
-- `Webhooks:` - Webhookかどうか
+- `Roles` - アカウントに付与されたロール一覧
+- `Webhooks` - Webhookかどうか
