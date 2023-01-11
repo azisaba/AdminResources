@@ -29,6 +29,7 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.sections
+    - content.code.copy
 markdown_extensions:
   - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
   - pymdownx.details
