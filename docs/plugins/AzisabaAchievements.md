@@ -103,13 +103,13 @@ AzisabaAchievements(略称: AA)はアジ鯖の一部サーバーで使用され�
 
 ## 開発者API
 
-### アーティストの場所
+### Artifactの場所
 
 リポジトリURL: `https://repo.azisaba.net/repository/maven-public/`
 
-グループID: `net.azisaba.azisabaachievements`
+Group ID: `net.azisaba.azisabaachievements`
 
-アーティストID: `api`, `common`, `spigot`, `velocity`, `cli`のいずれか(api以外のすべてのものはapiを含み、apiとcommon以外のすべてのものはcommonを含みます)
+Artifact ID: `api`, `common`, `spigot`, `velocity`, `cli`のいずれか(api以外のすべてのものはapiを含み、apiとcommon以外のすべてのものはcommonを含みます)
 
 ### API: インスタンスの取得
 
