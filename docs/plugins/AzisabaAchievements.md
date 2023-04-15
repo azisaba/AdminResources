@@ -1,4 +1,4 @@
-# AzisabaAchievements (実績プラグイン)
+# AzisabaAchievements
 
 AzisabaAchievements(略称: AA)はアジ鯖の一部サーバーで使用されている、カスタム実績の作成が可能なプラグインです。(バニラの実績、進捗システムは使いません)
 
