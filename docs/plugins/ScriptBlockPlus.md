@@ -7,6 +7,10 @@
 
 ## コマンド
 ### 基礎
+
+!!! warning
+    `@bypass`を使うと一部のプラグイン（WorldGuardなど）で保護貫通ができるようになるなどの問題が発生する可能性があります。
+
 - ``/sbp モード create [@bypass ユーザーに実行させるコマンド]``
 コマンド実行直後に右クリックしたブロックにコマンドが埋め込まれます。
 これが基本的なコマンドの書式です。
@@ -18,13 +22,13 @@
 
 ### 実用例
 - テレポートさせたい！
-``/sbp interact create [@bypass /spawn]``
+``/sbp interact create [@console /spawn <player>]``
 このコマンドを埋め込んだブロックをクリックしたユーザーは全員/spawnコマンドが実行され、スポーンにテレポートされます。
 - アイテムを渡したい！
-``/sbp walk create [@bypass /minecraft:give <player> minecraft:diamond 1]``
+``/sbp walk create [@console /minecraft:give <player> minecraft:diamond 1]``
 このコマンドを埋め込んだブロックの上を歩いたユーザーは全員/giveコマンドが実行され、ダイヤモンドを受け取ります。このままだと無限にダイヤモンド受け取れるので実際に使用するときは別の処理と組み合わせます。``<player>`` の部分はブロックの上を歩いたプレイヤーのMCIDで置き換えられます。
 - アスレのクリア報酬をSBPで渡したい！  組み合わせの方法
-``/sbp interact create [@bypass /spawn][@bypass /shot give <player> jetpack]``
+``/sbp interact create [@console /spawn <player>][@console /shot give <player> jetpack]``
 このコマンドを埋め込んだブロックをクリックしたユーザーは全員/spawnコマンドが実行され、スポーンにテレポート。また、スポーンにテレポートされた直後に2個目のコマンドが実行され、Jetpackを受け取ります。これによりアスレを再度クリアしないと次の報酬がもらえなくなります。ここではコマンドを二つしか入れていませんが、同じ形式でつなげればもっと多くのコマンドをひとつのブロックで実行可能です。
 
 - パーティクルを発生させたい！
