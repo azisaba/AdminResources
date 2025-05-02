@@ -1,5 +1,7 @@
 # Packet Events
 
+[https://github.com/retrooper/packetevents](https://github.com/retrooper/packetevents)
+
 ## 用途
 「ProtocolLib」に代わる、マインクラフトのパケットを扱うためのモダンなライブラリです。  
 本来、プラグインでパケットを送受信するためにはマインクラフトのコードを直接実行する必要がありますが、ライブラリを使用することで、これを簡単に行うことができます。
@@ -50,8 +52,11 @@ public void sendSpawnPacket(User user, Location location) {
 
 エンコーダー・デコーダーが共通だと、リスナーを通過する順番により他プラグインと競合を起こす可能性があります。そのため、２のようにプラグインに組み込む(shade)ことをおすすめします。  
 
+## レポジトリ
+[https://github.com/retrooper/packetevents](https://github.com/retrooper/packetevents)
+
 ## 公式ドキュメント
-https://docs.packetevents.com/getting-started
+[https://docs.packetevents.com/getting-started](https://docs.packetevents.com/getting-started)
 
 ## Example Repository
-https://github.com/retrooper/packetevents-example
+[https://github.com/retrooper/packetevents-example](https://github.com/retrooper/packetevents-example)
