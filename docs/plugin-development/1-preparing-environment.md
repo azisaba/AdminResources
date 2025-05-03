@@ -13,3 +13,14 @@
 
 1. まず、[IntelliJ IDEAをダウンロード](https://www.jetbrains.com/ja-jp/idea/download/)のページの下にある「IntelliJ IDEA Community版」をダウンロードしてインストールします
 
+2. 次に、あると便利な拡張機能を導入します。`Ctrl+Alt+S`を押して設定を開き、プラグインを選択。検索タブから「Minecraft Development」を検索しプラグインをインストールします。必要であれば、日本語化言語パックも導入しておくと良いでしょう。  
+[プラグインのインストール方法](https://pleiades.io/help/idea/managing-plugins.html)
+
+## 準備完了！
+早速、実際にプラグインを作ってみましょう！
+
+## 便利リンク
+
+[IntelliJ IDEAをダウンロード](https://www.jetbrains.com/ja-jp/idea/download/)
+
+[プラグインのインストール](https://pleiades.io/help/idea/managing-plugins.html)
