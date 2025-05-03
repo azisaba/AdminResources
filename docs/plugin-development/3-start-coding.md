@@ -1,12 +1,31 @@
 # 3. プログラムを書こう！
 
-今回は、コマンドを打つと空を飛べるようになるプラグインを作ります。  
+今回は、コマンドを打つと、サバイバルでも空を飛べるようになるプラグインを作ります。  
 `AziFly.java`を編集します。  
-![code](../image/250503-1.png)  
+  
+プラグインの読み込み時に、`fly`コマンドを登録します。  
+```java
+@Override
+public void onEnable() {
+    // Plugin startup logic
+    Bukkit.getPluginCommand("fly").setExecutor(this);
+}
+```
 
-こんな感じになりました。
-`plugin.yml`には  
-![plugin.yml](../image/250503-2.png)  
+コマンドを打ったときに、プレイヤーを飛行状態にするコードを書きます。
+```java
+player.setFlying(true); // プレイヤーを飛行状態にする
+player.sendMessage("Flyをオンにしました"); // プレイヤーにメッセージを送る
+```
+ 
+
+
+![code](../image/250503-1.png)  
+  
+最終的にはこんな感じになりました。  
+  
+`plugin.yml`には    
+![plugin.yml](../image/250503-2.png)    
 と書きます。  
 
 ## ビルド(コンパイル)

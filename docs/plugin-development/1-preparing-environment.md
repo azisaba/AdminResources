@@ -17,7 +17,7 @@
 [プラグインのインストール方法](https://pleiades.io/help/idea/managing-plugins.html)
 
 ## 準備完了！
-早速、実際にプラグインを作ってみましょう！
+早速、実際にプラグインを作ってみましょう！ [プロジェクト作成編へ](./2-creating-project.md)
 
 ## 便利リンク
 
