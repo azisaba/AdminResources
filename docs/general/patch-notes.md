@@ -7,6 +7,13 @@
 - 💬 公式Discordのパッチノートチャンネル (従来通り)
 - 🌐 公式サイト
 
+## MinecraftとDiscordを紐付けしましょう
+
+MinecraftとDiscordを紐付けすると、公式サイトにあなたのMCIDとスキンが表示されます。
+必須ではありませんが、ぜひしておきましょう。
+
+Minecraftサーバー内で`/link-discord`を実行して、案内に従って紐付けを行いましょう！
+
 ## パッチノートの作成手順
 
 パッチノートの作成には、運営Discordで`/patch-note publish`コマンドを使用します。
